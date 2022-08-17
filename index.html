@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div id="game">
+        <button id="start">Start</button>
+        <div id="timer">
+            Press the numbers in order.
+        </div>
+        <table id="game-table">
+
+
+
+        
+            
+
+        </table>
+            <button id="restart">Start over</button>
+
+    </div>
+    
+    <div class="modal">
+        
+        <form class="form">
+           
+            <div class="level">
+               
+                <div class="select">
+                    <input type="radio" name="level" value="3" id="level1" checked>
+                    <label for="level">3x3</label>
+                </div>
+                <div class="select">
+                    <input type="radio"name="level" value="6" id="level2">
+                    <label for="level2">6x6</label>
+                </div>
+                <div class="select">
+                    <input type="radio"name="level" value="9" id="level3">
+                    <label for="level3">9x9</label>
+                </div>
+            </div>
+            <div class="time">
+                <div class="select">
+                    <input type="radio" name="time" value="30" id="time1" checked>
+                    <label for="time">30s</label>
+                </div>
+                <div class="select">
+                    <input type="radio" name="time" value="60" id="time2">
+                    <label for="time2">60s</label>
+                </div>
+                <div class="select">
+                    <input type="radio" name="time" value="90" id="time3">
+                    <label for="time3">120s</label>
+                    
+            </div>
+            
+            </div>
+            
+            <button id="save" type="button">Save</button>
+            <button id="close" type="button">X</button>
+       </form>
+       
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+</html>
